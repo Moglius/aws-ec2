@@ -7,7 +7,7 @@ variable "aws_region" {
 
 variable "instance_tag_name" {
     type = string
-    description = "Region to use for AWS instance"
+    description = "Instance Name"
     default = "no-name"
     sensitive = false
 }
