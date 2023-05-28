@@ -51,7 +51,6 @@ resource "aws_instance" "ec2_vm" {
   ami           = var.ami_id
   instance_type = var.instance_type
   availability_zone = var.availability_zone
-  layer_name = var.instance_tag_name
 
   tags = {
     Name = var.instance_tag_name
