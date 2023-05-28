@@ -47,7 +47,7 @@ provider "aws" {
   region = var.aws_region
 }
 
-resource "aws_instance" "" {
+resource "aws_instance" {
   ami           = var.ami_id
   instance_type = var.instance_type
   availability_zone = var.availability_zone
