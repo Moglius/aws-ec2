@@ -40,6 +40,7 @@ terraform {
       version = "~> 4.0"
     }
   }
+  cloud {}
 }
 
 # Configure the AWS Provider
