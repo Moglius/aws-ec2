@@ -40,7 +40,12 @@ terraform {
       version = "~> 4.0"
     }
   }
-  cloud {}
+  cloud {
+    organization = "mmoglia"
+    workspaces {
+      name = "aws-ec2"
+    }
+  }
 }
 
 # Configure the AWS Provider
