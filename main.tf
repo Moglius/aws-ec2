@@ -29,7 +29,7 @@ variable "ami_id" {
 variable "availability_zone" {
     type = string
     description = "AZ"
-    default = "us-east-1a"
+    default = "us-east-1b"
     sensitive = false
 }
 
